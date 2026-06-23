@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --smudgy-blue: #294888;
+  --dark-blue: #203F9A;
+  --bright-pink: #f07a9a;
+  --text-color: #2b2b2b;
+  --color-bg: #edeae3;
+
+  /* 5rem = 8px  |||  1rem = 16px etc etc */
+  --body-font: 'Rubik', sans-serif;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --text-size: 1rem;
+  --small-font-size: 0.875rem;
+
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+
+  --border-radius: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--text-size);
+}
+
+body {
+  background-color: var(--color-bg);
+  line-height: 1.7;
+  color: var(--text-color)
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
