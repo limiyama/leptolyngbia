@@ -1,0 +1,11 @@
+.about_container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+}
+
+.about_data {
+    padding: 1.875rem;
+    background-color: var(--dark-blue);
+    box-shadow: var(--shadow);
+    border-radius: var(-border-radius);
+}
