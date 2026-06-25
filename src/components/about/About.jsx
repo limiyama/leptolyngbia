@@ -1,13 +1,12 @@
 import React from 'react';
 import "./about.css";
-import AboutMe from "../../assets/logo.png"
+import AboutMe from "../../assets/logo.png";
+import AboutBox from "./AboutBox";
 
 const About = () => {
     return (
         <section className="about container section" id="about">
-            <h2 className="section_title">
-                About me!!!
-            </h2>
+            <h2 className="section_title"> About me!!! </h2>
 
             <div className="about_container grid">
                 <img src={AboutMe} alt="" className="about_img" />
@@ -55,8 +54,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </section>
-    )
-}
 
-export default About
+        <AboutBox/>
+        </section>
+    );
+};
+
+export default About;
