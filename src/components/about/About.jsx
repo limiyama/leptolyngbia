@@ -13,7 +13,7 @@ const About = () => {
 
                 <div className="about_data grid">
                     <div className="about_info">
-                        <p className="about_description"> pipipipipopopopo sou a lija</p>
+                        <p className="about_description"> Hi! I am an Undergraduate researcher at LabAzul, currently studying Brazilian cyanobacteria and their potential to produce novel natural products with pharmaceutical and biotechnological applications.</p>
                         <a href="" className="btn">Download CV</a>
                     </div>
 
@@ -21,11 +21,11 @@ const About = () => {
                         <div className="skills_data">
                             <div className="skills_titles">
                                 <h3 className="skills_name">Development </h3>
-                                <span className="skills_number development">90%</span>
+                                <span className="skills_number">90%</span>
                             </div>
 
                             <div className="skills_bar">
-                                <span className="skills_percentage"></span>
+                                <span className="skills_percentage development"></span>
                             </div>
                         </div>
 
@@ -50,7 +50,6 @@ const About = () => {
                                 <span className="skills_percentage"></span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
