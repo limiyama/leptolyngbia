@@ -14,28 +14,28 @@ const Portfolio = () => {
 
     return (
         <section className="work container section" id="work">
-            <h2 className="section_title">Recent works </h2>
+            <h2 className="section_title">Experiences</h2>
 
             <div className="work_filters">
                 <span className="work_item" onClick={() => setItems(Menu)}>Everything</span>
-                <span className="work_item" onClick={() => filterItem("Creative")}>Creative</span>
-                <span className="work_item" onClick={() => filterItem("Art")}>Art</span>
-                <span className="work_item" onClick={() => filterItem("Design")}>Design</span>
-                <span className="work_item" onClick={() => filterItem("Branding")}>Branding</span>
+                <span className="work_item" onClick={() => filterItem("Creative")}>Technology</span>
+                <span className="work_item" onClick={() => filterItem("Art")}>Creative</span>
+                <span className="work_item" onClick={() => filterItem("Design")}>Teaching</span>
+                <span className="work_item" onClick={() => filterItem("Branding")}>Academic</span>
             </div>
 
             <div className="work_container grid">
                 {items.map((elem) => {
-                    const{ id, image, title, category} = elem;
+                    const{ id, image, title, category, desc} = elem;
                     return (
                         <div className="work_card" key={id}>
                             <div className="work_thumbnail">
                                 <img src={image} alt="" className="work_img" />
-                                <div className="work_mask"></div>
                             </div>
 
                             <span className="work_category">{category}</span>
                             <h3 className="work_title">{title}</h3>
+                            <p className="work_desc">{desc}</p>
                             <a href="#" className="work_button">
                                 <i className="icon-link work_button-icon"></i>
                             </a>

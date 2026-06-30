@@ -1,7 +1,6 @@
 import React from 'react';
 import "./about.css";
 import AboutMe from "../../assets/logo.png";
-import AboutBox from "./AboutBox";
 
 const About = () => {
     return (
@@ -20,8 +19,19 @@ const About = () => {
                     <div className="about_skills grid">
                         <div className="skills_data">
                             <div className="skills_titles">
-                                <h3 className="skills_name">Development </h3>
+                                <h3 className="skills_name">Genome mining</h3>
                                 <span className="skills_number">90%</span>
+                            </div>
+
+                            <div className="skills_bar">
+                                <span className="skills_percentage genome"></span>
+                            </div>
+                        </div>
+
+                        <div className="skills_data">
+                            <div className="skills_titles">
+                                <h3 className="skills_name">Full-stack development</h3>
+                                <span className="skills_number">75%</span>
                             </div>
 
                             <div className="skills_bar">
@@ -31,30 +41,17 @@ const About = () => {
 
                         <div className="skills_data">
                             <div className="skills_titles">
-                                <h3 className="skills_name">UI/UX design</h3>
-                                <span className="skills_number">80%</span>
-                            </div>
-
-                            <div className="skills_bar">
-                                <span className="skills_percentage"></span>
-                            </div>
-                        </div>
-
-                        <div className="skills_data">
-                            <div className="skills_titles">
-                                <h3 className="skills_name">Suicidio</h3>
+                                <h3 className="skills_name">Coffee</h3>
                                 <span className="skills_number">10000%</span>
                             </div>
 
                             <div className="skills_bar">
-                                <span className="skills_percentage"></span>
+                                <span className="skills_percentage coffee"></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        <AboutBox/>
         </section>
     );
 };

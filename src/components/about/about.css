@@ -55,9 +55,19 @@
     background-color: var(--dark-blue);
 }
 
-.development {
+.genome {
     width: 90%;
-    background-color: rgb(255, 209, 92);
+    background-color: #ffc2db;
+}
+
+.development {
+    width: 75%;
+    background-color: #d97da3;
+}
+
+.coffee {
+    width: 100%;
+    background-color: var(--bright-pink);
 }
 
 .about_boxes {
