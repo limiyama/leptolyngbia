@@ -28,7 +28,6 @@
     background-color: #fff;
 }
 
-
 .work_category {
     color: #fff;
     background-color: var(--bright-pink);
@@ -44,7 +43,7 @@
 
 .work_title {
     color: var(--text-color);
-    padding: 1rem;
+    padding-top: 1.5rem;
     text-align: center;
     font-size: var(--h3-font-size);
 }
@@ -52,8 +51,8 @@
 .work_desc {
     font-size: var(--text-size);
     color: var(--text-color);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 1rem;
+    text-align: justify
 }
 
 .work_button {
