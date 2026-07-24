@@ -4,7 +4,7 @@
 }
 
 .timeline {
-    background-color: #fff;
+    background-color: #faf8f6;
     padding: 1.875rem;
     border-radius: var(--border-radius);
     position: relative;
@@ -38,7 +38,7 @@
     top: 0;
     font-size: var(--h2-font-size);
     color: var(--bright-pink);
-    background-color: #fff;
+    background-color: #faf8f6;
     padding: 0.4375rem 0;
 }
 
