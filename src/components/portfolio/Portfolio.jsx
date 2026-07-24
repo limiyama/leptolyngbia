@@ -13,7 +13,7 @@ const Portfolio = () => {
     }
 
     return (
-        <section className="work container section" id="work">
+        <section className="work container section" id="portfolio">
             <h2 className="section_title">Experiences</h2>
 
             <div className="work_filters">

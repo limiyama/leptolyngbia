@@ -27,5 +27,5 @@
 }
 
 .nav_link:hover {
-    color: yellow;
+    color: var(--bright-pink);
 }
