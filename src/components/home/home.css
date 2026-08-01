@@ -36,5 +36,11 @@
 }
 
 .home_social-link:hover {
-    color:yellow
+    color:var(--bright-pink)
+}
+
+@media screen and (max-width: 1024px){
+  .home_social-link{
+    font-size: 1.125rem;
+  }
 }
