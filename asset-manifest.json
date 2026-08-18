@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/leptolyngbia/static/css/main.fa5ccd2e.css",
+    "main.js": "/leptolyngbia/static/js/main.efcbf09d.js",
+    "static/media/inovart.png": "/leptolyngbia/static/media/inovart.d251c4f54bc480dfeb65.png",
+    "static/media/labdasminas.png": "/leptolyngbia/static/media/labdasminas.5bb2e1c7d00c598b6f9a.png",
+    "static/media/cursinho.png": "/leptolyngbia/static/media/cursinho.e40e3979336a79f735a5.png",
+    "static/media/poster.png": "/leptolyngbia/static/media/poster.f1663ce8405df0ba64a9.png",
+    "static/media/sdb.png": "/leptolyngbia/static/media/sdb.63742887ec801a2b4e98.png",
+    "static/media/s_labdasminas.png": "/leptolyngbia/static/media/s_labdasminas.5f0b41c48066ccdafc97.png",
+    "static/media/loovie.png": "/leptolyngbia/static/media/loovie.0bc30a80f750e8d5f74c.png",
+    "static/media/home_lija.png": "/leptolyngbia/static/media/home_lija.ea28959d938cf0397bd7.png",
+    "static/media/CABAM.png": "/leptolyngbia/static/media/CABAM.8023b907f575ef8f7fa2.png",
+    "static/media/image.png": "/leptolyngbia/static/media/image.5a8bec2325478c51bc51.png",
+    "static/media/BGCpri.png": "/leptolyngbia/static/media/BGCpri.d393c6536f09693d0ec8.png",
+    "static/media/apollo.png": "/leptolyngbia/static/media/apollo.dbf6da60132f3b2f16b0.png",
+    "static/media/logo.png": "/leptolyngbia/static/media/logo.2556b6b47999a0caa0cc.png",
+    "index.html": "/leptolyngbia/index.html",
+    "main.fa5ccd2e.css.map": "/leptolyngbia/static/css/main.fa5ccd2e.css.map",
+    "main.efcbf09d.js.map": "/leptolyngbia/static/js/main.efcbf09d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa5ccd2e.css",
+    "static/js/main.efcbf09d.js"
+  ]
+}
