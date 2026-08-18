@@ -125,6 +125,7 @@ img {
   font-weight: var(--font-bold);
   position: relative;
   margin-bottom: 1.875rem;
+  text-align: center;
 }
 
 .section_title::before {

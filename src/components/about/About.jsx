@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import AboutMe from "../../assets/drawing_me.png";
+import AboutMe from "../../assets/image.png";
 
 const About = () => {
     return (
@@ -13,7 +13,7 @@ const About = () => {
                 <div className="about_data grid">
                     <div className="about_info">
                         <p className="about_description"> Hi! I am an Undergraduate researcher at LabAzul, currently studying Brazilian cyanobacteria and their potential to produce novel natural products with pharmaceutical and biotechnological applications.</p>
-                        <a href="" className="btn">Download CV</a>
+                        <a href="http://lattes.cnpq.br/8085124701759641" className="btn">Check my CV!</a>
                     </div>
 
                     <div className="about_skills grid">
